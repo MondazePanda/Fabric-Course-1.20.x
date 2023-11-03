@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-course",
+	"version": "${version}",
+	"name": "MC Course Mod",
+	"description": "Course",
+	"authors": [
+		"Mondaze"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mc-course/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mondaze.mccourse.MCCourseMod"
+		],
+		"fabric-datagen": [
+			"net.mondaze.mccourse.MCCourseModDataGenerator"
+		],
+		"client": [
+			"net.mondaze.mccourse.MCCourseModClient"
+		]
+	},
+	"mixins": [
+		"mc-course.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
