@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mccourse:block/stone_ferro_glint_ore"
+    "all": "mccourse:block/ferro_glint_ore"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "way_point_group",
+  "ingredient": {
+    "item": "mccourse:ferro_glint"
+  },
+  "result": "mccourse:ferro_gel"
+}

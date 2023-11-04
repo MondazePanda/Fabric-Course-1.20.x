@@ -19,7 +19,7 @@ public class ModItemGroup {
                         entries.add(ModItems.FERRO_GEL);
                         entries.add(ModItems.FERRO_GLINT);
                         entries.add(ModBlocks.FERRO_GEL_BLOCK);
-                        entries.add(ModBlocks.STONE_FERRO_GLINT_ORE);
+                        entries.add(ModBlocks.FERRO_GLINT_ORE);
 
                     }).build());
 

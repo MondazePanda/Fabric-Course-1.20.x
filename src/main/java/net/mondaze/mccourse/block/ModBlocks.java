@@ -4,11 +4,13 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mondaze.mccourse.MCCourseMod;
 
 public class ModBlocks {
@@ -16,8 +18,8 @@ public class ModBlocks {
     public static final Block FERRO_GEL_BLOCK = registerBlock("ferro_gel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK)));
 
-    public static final Block STONE_FERRO_GLINT_ORE = registerBlock("stone_ferro_glint_ore",
-            new Block(FabricBlockSettings.create()));
+    public static final Block FERRO_GLINT_ORE = registerBlock("ferro_glint_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE), UniformIntProvider.create(3, 6)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -30,6 +32,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        MCCourseMod.LOGGER.info("Registering ModBlocks for " + MCCourseMod.MOD_ID);
+        MCCourseMod.LOGGER.info("Registering ModBlocks For " + MCCourseMod.MOD_ID);
     }
 }

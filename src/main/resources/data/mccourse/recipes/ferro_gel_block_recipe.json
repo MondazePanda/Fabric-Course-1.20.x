@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catergory": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:ferro_gel"
+    }
+  },
+  "result": {
+    "item": "mccourse:ferro_gel_block"
+  }
+}

@@ -21,7 +21,7 @@ public class ModItems {
         entries.add(FERRO_GLINT);
         entries.add(FERRO_GEL);
         entries.add(ModBlocks.FERRO_GEL_BLOCK);
-        entries.add(ModBlocks.STONE_FERRO_GLINT_ORE);
+        entries.add(ModBlocks.FERRO_GLINT_ORE);
     }
 
     private static Item registerItem(String name, Item item) {

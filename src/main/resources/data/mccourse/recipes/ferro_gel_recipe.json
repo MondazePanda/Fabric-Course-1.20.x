@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catergory": "misc",
+  "ingredients": [
+    {
+      "item": "mccourse:ferro_gel_block"
+    }
+  ],
+  "result": {
+    "item": "mccourse:ferro_gel",
+    "count": 9
+  }
+}
